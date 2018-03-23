@@ -3,7 +3,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "coffee": "nodemon server.js"
+    "snax": "nodemon server.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "latest",

@@ -2,27 +2,97 @@
 <html>
 
 <head>
-  <title>Barista On Track</title>
+  <title>Fleurimond Vending</title>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <video src="img/Coffeecup.mp4" poster="img/itb.jpg" autoplay loop></video>
-
   <div class="container">
 
     <div class="jumbotron text-center">
-      <h1>!Fleurimond Coffee Shop!</h1>
-      <h2>Best Organic Haitian Coffee</h2>
-      <img src="img/coffee.jpg" alt="Coffee">
+      <h2>Instructions:<h2>
+          <span> Choose Your Snack</span>
 
-      <p>Login or Signup:</p>
 
-      <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
-      <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+        <h4></h4>
 
+                  <section id="user-controls">
+
+                    <button id="snack-submit">Buy My Snack</button>
+                    <div class="keypad-background"></div>
+
+                     <div class="keypad-background"></div>
+                     <div class="keypad">
+                       <button class="buy" data-n="1">1</button>
+                       <button class="buy" data-n="2">2</button>
+                       <button class="buy" data-n="3">3</button>
+                       <button class="buy" data-n="4">4</button>
+                       <button class="buy" data-n="5">5</button>
+                       <button class="buy" data-n="6">6</button>
+                       <button class="buy" data-n="7">7</button>
+                       <button class="buy" data-n="8">8</button>
+                       <button class="buy" data-n="9">9</button>
+                       <button class="buy" data-n="0">0</button>
+                     </div>
+
+                  </section>
+
+                  <div id="vending-machine">
+                    <section id="message">Buy Snacks!</section>
+                    <div id="snack-collection">
+                      <ul>
+                        <li>
+
+                          <img src="img/hiChew.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/chesters.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/fruitsnacks.png" class="snack" />
+                        </li>
+                      </ul>
+
+                      <ul>
+                        <li>
+
+                          <img src="img/saltedcaramel.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/sunchips.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/sunchips2.png" class="snack" />
+                        </li>
+                      </ul>
+
+                      <ul>
+
+                        <li>
+
+                          <img src="img/starburst.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/snickers.png" class="snack" />
+                        </li>
+                        <li>
+
+                          <img src="img/skittles.png" class="snack" />
+                        </li>
+                      </ul>
+                    </div>
+
+
+
+                    <section id="snack-purchases">
+                    </section>
     </div>
 
   </div>
