@@ -4,7 +4,7 @@
 // get all the tools we need
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 1988;
 var mongoose = require('mongoose');
 var passport = require('passport');
 var flash = require('connect-flash');
@@ -69,4 +69,4 @@ app.delete('/messages', (req, res) => {
 })
 
 app.listen(port);
-console.log(' Pop That Bean For A Real Grinder! ' + port);
+console.log('Run The Snacks! ' + port);
