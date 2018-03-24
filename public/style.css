@@ -64,16 +64,16 @@ button:hover {
   position: absolute;
   background-image: url('http://www.fillmurray.com/200/300');
   background-size: cover;
-  width: 240px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   filter: blur(5px);
 }
 
 .keypad {
   position: absolute;
   box-sizing: border-box;
-  width: 240px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   left: 50%;
   top: 50%;
   transform: translate(-120px, -150px);
@@ -98,6 +98,6 @@ button:hover {
   padding: 0 // to prevent text shifting right & down;
 }
 
-@keyframes buttonPress : 0%, 100% background-color: transparent 70%;
+@keyframes buttonPress: 0%, 100% background-color: transparent 70%;
 background-color: rgba(255, 255, 255, 0.5)
 }
